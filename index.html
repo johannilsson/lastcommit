@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <title>You are only as good as your last commit</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+
+    <h1>You are only as good as your last commit</h1>
+    <p>An old <a href="http://twitter.com/sauy7">friend</a> once told me this, so here's mine.</p>
+
+    <span class="lastcommit-widget"
+        data-user="johannilsson">
+    </span>
+
+    <p>And now you!</p>
+
+    <pre>
+&lt;span class=&quot;lastcommit-widget&quot; data-user=&quot;your github username&quot;&gt;&lt;/span&gt;
+&lt;script src=&quot;widget.js&quot;&gt;&lt;/script&gt;
+    </pre>
+
+    <p>The code above will, when included on a webpage show the last commit made by the provided user.</p>
+    <p>It's not smart enough to filter out commits by others in a repository on the users account.</p>
+    <p>Oh...and it only works for GitHub accounts.</p>
+    <p>Fork it on GitHub.</p>
+    <p>Thank you</p>
+    <p><a href="http://twitter.com/johanni">Johan</a></p>
+    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+    <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+    <script src="widget.js"></script>
+</body>
+</html>
