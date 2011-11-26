@@ -11,7 +11,7 @@
     // Localize jQuery variable
     var jQuery;
     var remoteJquery = 'http://code.jquery.com/jquery-1.7.min.js';
-    var localJquery = 'http://johannilsson.github.com/lastcommit/jquery-1.7.min.js';
+    var localJquery = 'http://johannilsson.com/lastcommit/jquery-1.7.min.js';
 
     /**
      * Load jQuery if not present
@@ -47,7 +47,7 @@
             var cssLink = $('<link>', {
                 rel: 'stylesheet',
                 type: 'text/css',
-                href: 'http://johannilsson.github.com/lastcommit/widget.css'
+                href: 'http://johannilsson.com/lastcommit/widget.css'
             });
             cssLink.appendTo('head');
 
