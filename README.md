@@ -11,3 +11,9 @@ JavaScript widget to include on your site that shows and links to your last comm
 * Does not work properly on commits in branches.
 
 By [Johan Nilsson](http://markupartist.com)
+
+### Credits
+
+* Background from [Subtle Patterns](http://subtlepatterns.com/?p=850).
+* Widget based on [Erik Petterssons](http://twitter.com/ptz0n) widget for [av.vikel.se](http://dev.av.vikel.se)
+* [GitHub](http://github.com) for their APIs.
