@@ -1,0 +1,30 @@
+body {
+    color: #333;
+    padding:  14px;
+    line-height: 22px;
+    text-align: center;
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+    background-image:url('lined_paper.png');
+}
+
+span.lastcommit {
+    font-size: 22px !important;
+}
+
+a:hover {
+    color: #00438A;
+    text-decoration: underline;
+}
+a {
+    color: #0069D6;
+    text-decoration: none;
+}
+
+
+pre {
+    color: #404040;
+    font-family: Monaco, 'Andale Mono', 'Courier New', monospace;
+    font-size: 12px;
+
+
+}
